@@ -18,6 +18,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    # Run the query if nil else retains value
     @current_user ||= User.find(params[:id])
   end 
 
