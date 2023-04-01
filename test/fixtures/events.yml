@@ -4,8 +4,4 @@ one:
   name: MyString
   location: MyString
   starts_at: 2023-03-31 02:55:28
-
-two:
-  name: MyString
-  location: MyString
-  starts_at: 2023-03-31 02:55:28
+  user_id: 1
