@@ -16,6 +16,7 @@ class UserSignupTest < ActionDispatch::IntegrationTest
         password_confirmation: 'password'
       }
     }
-    assert_response :success
+    follow_redirect! 
+    assert_template 'users/show' 
   end 
 end
