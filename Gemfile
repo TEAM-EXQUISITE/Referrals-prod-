@@ -6,6 +6,9 @@ ruby "3.1.3"
 # Generate semi real user data 
 gem "faker" 
 
+# Tailwindcss 
+gem "tailwindcss-rails" 
+
 # Provides assert_template for integration tests
 gem "rails-controller-testing"
 
