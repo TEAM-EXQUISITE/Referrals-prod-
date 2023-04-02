@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.3"
 
+# Generate semi real user data 
+gem "faker" 
+
 # Provides assert_template for integration tests
 gem "rails-controller-testing"
 
