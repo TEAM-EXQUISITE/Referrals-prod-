@@ -26,3 +26,5 @@ Once all dependencies are installed, enter into the root folder and run `rails s
 ### Setting up the frontend
 
 Install tailwindcss from (the official documentation)[https://tailwindcss.com]
+
+Start up tailwind by running `rails tailwindcss:watch`in the app's root to apply the tailwind styles.
