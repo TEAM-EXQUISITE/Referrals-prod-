@@ -18,7 +18,7 @@ Developers using this project should have ruby, rails, postgresql and tailwindcs
 
 Once all dependencies are installed, enter into the root folder and run `rails server` to startup the backend service. This would start the app on port 3000 with a default **home** page
 
-## Key gem dependencies
+#### Key gem dependencies
 
 - [Devise] (https://github.com/heartcombo/devise) is a flexible fully built authentication gem handling users sign up and sign in. The version to use for the project is already listed in the gemfile , run `bundle install` in the project root.
 - **Active Record** is the Ruby SQL toolkit and ORM we'll use to handle queries to the database.
