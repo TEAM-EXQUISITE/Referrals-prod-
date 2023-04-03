@@ -20,7 +20,7 @@ Once all dependencies are installed, enter into the root folder and run `rails s
 
 #### Key gem dependencies
 
-- [Devise] (https://github.com/heartcombo/devise) is a flexible fully built authentication gem handling users sign up and sign in. The version to use for the project is already listed in the gemfile , run `bundle install` in the project root.
+- [Devise](https://github.com/heartcombo/devise) is a flexible fully built authentication gem handling users sign up and sign in. The version to use for the project is already listed in the gemfile , run `bundle install` in the project root.
 - **Active Record** is the Ruby SQL toolkit and ORM we'll use to handle queries to the database.
 
 ### Setting up the frontend
