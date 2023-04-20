@@ -1,5 +1,15 @@
 <p>New was rendered</p>
-
+<%= form_for(@user) do |f| %>
+    <%= f.label :Name %>
+    <%= f.text_field :name %><br>
+    <%= f.label :Email  %>
+    <%= f.email_field :email %><br>
+    <%= f.label :Password %>
+    <%= f.password_field :password %><br>
+    <%= f.label :Confirm_Password %>
+    <%= f.password_field :password_confirmation %>
+    <%= f.submit %>
+<% end %>
 <% if @user.errors.any?  %>
     <%= render 'shared/error_messages' %>
 <% end %>
