@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.3"
 
+# Handle cors policy 
+gem 'rack-cors'
+
 # Generate semi real user data 
 gem "faker" 
 
